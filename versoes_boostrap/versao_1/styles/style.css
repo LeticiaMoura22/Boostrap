@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0E2954;
+}
+.nav-link{
+    color: white;
+}
+.container-fluid footer{
+    background-color: 2E8A99;
+}

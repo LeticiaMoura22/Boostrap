@@ -1,0 +1,103 @@
+
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    padding-bottom: 0.0%;
+    position: fixed;
+    width: 100%;
+    color: #fffb00;
+}
+
+.nav-link{
+  color: #fffb00;
+}
+
+.nav-link:hover{
+  color: #ff6600;
+
+  
+}
+/* conteudo geral*/
+html{
+  overflow-x: hidden;
+}
+.conteudo {
+    flex: 1; /* Expande o conteúdo para ocupar o espaço disponível. */
+    background-image: url(./imagens/logo\ fundo.png);
+    background-size: auto;
+    background-position-x: left;
+
+
+}
+h2{
+  text-align: center;
+}
+/* conteudo Quem Somos*/
+.nos{
+  text-align: center;
+  font-size: 60px;
+  -webkit-text-stroke: 1px rgb(255, 251, 0); /* Contorno preto de 1 pixel */
+}
+p{
+  text-align: justify;
+}
+
+
+/* conteudo contato*/ 
+.container{
+  background-color: #fffb008a;
+  color: #000000;
+}
+
+.btn{
+  background-color: #fffb00;
+  color: #000000;
+}
+
+
+.btn:hover{
+  background-color: #ff6600;
+  color: #000000;
+  text-align: center;
+ 
+}
+h5{
+  text-align: center;
+}
+
+.form-group{
+  color: #eeff00;
+  font-weight:bold;
+  font-size:23px;
+  -webkit-text-stroke: 1px rgb(0, 0, 0); /* Contorno preto de 1 pixel */
+  color: rgb(0, 0, 0); /* Cor do texto (por exemplo, branco) */
+  
+}
+
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 102%;
+    color: #fffb00;
+}
+.imagem-integrante{
+    width: 45px;
+    
+  }
+  .conteudo-integrantes{
+    margin-top: 100px;
+
+  }
+
+  .descricao-integrante{
+    background-color: #394a4ee8;
+    color: #ffffff;
+  }
